@@ -32,7 +32,7 @@ namespace PriceTracker.API.Controllers
 			{
 				product.Id,
 				product.CreatedAt,
-				product.ModifiedAt // Должен быть null
+				product.ModifiedAt
 			});
 		}
 
@@ -48,7 +48,7 @@ namespace PriceTracker.API.Controllers
 			{
 				product.Id,
 				OriginalCreatedAt = product.CreatedAt,
-				product.ModifiedAt // Должен обновиться
+				product.ModifiedAt 
 			});
 		}
 	}
