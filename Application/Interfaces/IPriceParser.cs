@@ -1,4 +1,4 @@
-﻿namespace PriceTracker.API.Infrastructure.Interfaces
+﻿namespace PriceTracker.API.Application.Interfaces
 {
 	public interface IPriceParser
 	{

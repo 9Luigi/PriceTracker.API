@@ -4,10 +4,10 @@ using PriceTracker.API.Domain.Features.Queries.GetProductById;
 using PriceTracker.API.Domain.Products;
 using PriceTrackerAPI.Features.Products.Queries.GetProductById;
 
-namespace PriceTrackerAPI.Controllers;
+namespace PriceTracker.API.API.Controllers;
 
 [ApiController]
-[Route("api/[controller]")] //TODO how to use the controller name in the route?
+[Route("api/product")]
 public class ProductsController : ControllerBase
 {
 	private readonly IMediator _mediator;

@@ -22,10 +22,11 @@
   <ItemGroup>
     <Folder Include="Application\Auth\" />
     <Folder Include="Application\Products\" />
-    <Folder Include="Domain\Features\Commands\" />
-    <Folder Include="Domain\Features\DTOs\" />
+    <Folder Include="Application\Features\Commands\" />
+    <Folder Include="Application\Features\DTOs\" />
     <Folder Include="Domain\Users\" />
     <Folder Include="Infrastructure\Auth\" />
+    <Folder Include="Infrastructure\Persistence\Repositories\" />
   </ItemGroup>
 
 </Project>
