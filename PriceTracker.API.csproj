@@ -26,7 +26,6 @@
     <Folder Include="Application\Features\DTOs\" />
     <Folder Include="Domain\Users\" />
     <Folder Include="Infrastructure\Auth\" />
-    <Folder Include="Infrastructure\Persistence\Repositories\" />
   </ItemGroup>
 
 </Project>
