@@ -1,5 +1,5 @@
 ﻿using PriceTracker.API.Application.Interfaces;
-using PriceTracker.API.Domain.Products;
+using PriceTracker.API.Domain.Common.Entities;
 
 namespace PriceTracker.API.Infrastructure.Persistence.Repositories
 {

@@ -1,4 +1,6 @@
-﻿namespace PriceTracker.API.Domain.Products;
+﻿using PriceTracker.API.Domain.Common.Entities;
+
+namespace PriceTracker.API.Domain.Products;
 
 public class Product : BaseEntity
 {

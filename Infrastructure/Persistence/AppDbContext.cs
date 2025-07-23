@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PriceTracker.API.Domain.Common.Entities;
 using PriceTracker.API.Domain.Products;
 using System.Threading;
 using System.Threading.Tasks;

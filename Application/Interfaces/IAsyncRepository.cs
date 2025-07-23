@@ -1,4 +1,4 @@
-﻿using PriceTracker.API.Domain.Products;
+﻿using PriceTracker.API.Domain.Common.Entities;
 
 namespace PriceTracker.API.Application.Interfaces
 {
