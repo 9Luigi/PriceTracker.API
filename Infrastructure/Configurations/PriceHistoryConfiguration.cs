@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PriceTracker.API.Domain.Products;
 using Microsoft.EntityFrameworkCore;
+using PriceTracker.API.Models;
 
-namespace PriceTracker.API.Infrastructure.Persistence.Configurations;
+namespace PriceTracker.API.Infrastructure.Configurations;
 public class PriceHistoryConfiguration : BaseEntityConfiguration<PriceHistory>
 {
 	public override void Configure(EntityTypeBuilder<PriceHistory> builder)

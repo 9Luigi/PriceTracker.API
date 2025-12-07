@@ -1,7 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using PriceTracker.API.Infrastructure.Persistence;
-using System.Configuration;
-using System.Data;
+using PriceTracker.API.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +14,6 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 });
 builder.Services.AddControllers();
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 
 var app = builder.Build();
 

@@ -1,10 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PriceTracker.API.Domain.Common.Entities;
-using PriceTracker.API.Domain.Products;
+using PriceTracker.API.Models;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace PriceTracker.API.Infrastructure.Persistence
+namespace PriceTracker.API.Infrastructure
 {
 	public class AppDbContext : DbContext
 	{

@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PriceTracker.API.Domain.Common.Entities;
+using PriceTracker.API.Models;
 
-namespace PriceTracker.API.Infrastructure.Persistence.Configurations;
+namespace PriceTracker.API.Infrastructure.Configurations;
 
 public abstract class BaseEntityConfiguration<T> : IEntityTypeConfiguration<T>
 	where T : BaseEntity

@@ -4,7 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PriceTracker.API.Infrastructure.Persistence;
+using PriceTracker.API.Infrastructure;
+
 
 #nullable disable
 
